@@ -1,0 +1,209 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    height: 50px;
+    background-color: rgb(18,25,33);
+    padding-left: 10%;
+    padding-top: 10px;
+}
+.top{
+    display: inline-flex;
+    position: absolute;
+    top: 2%;
+    font-family: monospace;
+    font-size: smaller;
+
+}
+.below1{
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.top1{
+    padding-left: 10px;
+
+}
+#amazon_logo_top{
+height: 40px;
+margin-top: 10px;
+position: absolute;
+left: 10px;
+}
+#all{
+    position: relative;
+    left: 5px;
+    top: 0.5px;
+    display: inline-flex;
+    width: 40px;
+    height: 29px;
+    background-color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+#search_bar{
+    width: 500px;
+    height: 30px;
+    position: relative;
+}
+#search_icon{
+    height: 20px;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+#search_icon_bg{
+    position: relative;
+    left: -5px;
+    background-color: rgb(255, 182, 85);
+    display: inline-flex;
+    width: 40px;
+    height: 30px;
+    border-radius: 0px 10px 10px 0px;
+}
+#flag{
+    height: 15px;
+}
+
+#cart{
+    height: 25px;
+    padding-left: 20px;
+}
+
+#navigation_bar{
+    height: 30px;
+    background-color: rgb(36,48,64);
+}
+span{
+    color: white;
+    font-family: monospace;
+    word-spacing: -2px;
+}
+
+.nav_icons{
+    margin-right: 10px;
+    letter-spacing: -0.8px;
+    position: relative;
+    top: -5px;
+}
+
+#lion{
+    height: 30px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+#prime_day{
+    padding-left: 130px;
+    position: relative;
+    top: -10px;
+    font-size: large;
+    
+}
+#smile{
+    height: 19px;
+    position: relative;
+    left: 88%;
+}
+
+
+#bg_img{
+    height: 86vh;
+    width:99vw;
+}
+
+#arrow_right{
+    position: absolute;
+    transform: rotate(180deg);
+    top: 30%;
+    left: 1%;
+
+}
+#arrow_left{
+    position: absolute;
+    left: 98%;
+    top: 30%;
+}
+.box{
+    height: 280px;
+    width: 270px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    position: absolute;
+    top: 51%;
+    
+
+}
+#items{
+    display: flex;
+    flex-direction: row;
+}
+
+#box1{
+    padding: 5px;
+}
+#box2{
+    left: 24%;
+    padding: 5px;
+
+}
+#box3{
+    left: 48%;
+    padding: 5px;
+
+}
+.box1_img{
+    height: 80px;
+    margin: 5px;
+    width: 110px;
+}
+.box2_img{
+    height: 85px;
+    margin: 5px;
+    width: 110px;
+
+}
+h3{
+    padding-top: 7px;
+    padding-left: 10px;
+    color: black;
+}
+#box3_img{
+    height: 190px;
+    margin: 15px;
+}
+#box4{
+    height: 110px;
+    width: 300px;
+    position: absolute;
+    top: 52%;
+    left: 73%;
+    background-color: rgb(255, 255, 255);
+}
+#sign_in{
+    background-color: gold;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 3px 0px;
+    color: rgb(124,91,5);
+}
+#laptop_img{
+    height: 150px;
+    position: absolute;
+    top: 75%;
+    left: 77%;
+
+}
+.text_in_items{
+    color: rgb(86, 86, 86);
+    font-size: smaller;
+    margin-right: 20px;
+}
+.shop_now{
+    color: rgb(55, 55, 255);
+}
