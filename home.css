@@ -207,3 +207,11 @@ h3{
 .shop_now{
     color: rgb(55, 55, 255);
 }
+
+
+@media (max-width:500px) {
+    .box,#box1{
+        background-color: aqua;
+    }
+
+}
