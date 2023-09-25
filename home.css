@@ -210,8 +210,54 @@ h3{
 
 
 @media (max-width:500px) {
-    .box,#box1{
-        background-color: aqua;
+    #search_bar{
+        width: 50px;
     }
+    .nav_icons{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        display: flex;
+    }
+    #amazon_logo_top{
+        display: none;
+    }
+    #cart{
+        height: 10px;
+    }
+    #navigation_bar{
+        height: fit-content;
+    }
+    #lion,#prime_day,#smile,.non,#arrow_left,#arrow_right{
+        display: none;
+    }
+    .top1,.top,.below1{
+        font-size: smaller;
+    }
+    #laptop_img{
+        top: 185%;
+        left: 30%;
+    }
+    #bg_img{
+        height: 99vh;
+        width: 72.5vb;
+    }
+    #box4{
+        top: 170%;
+        left: 23%;
+    }
+    #box3{
+        top: 122%;
+        left: 24%;
+    }
+    #box1{
+        top: 37%;
+        left: 24%;
+    }
+    #box2{
+        top: 80%;
+    }
+
 
 }
